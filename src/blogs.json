@@ -1,0 +1,40 @@
+{
+    "blogs": [
+      {
+        "thumb": "https://blog.pwskills.com/wp-content/uploads/2024/09/Data-Mining-Process-What-Is-The-Data-Mining-Process.jpg",
+        "title": "Data Mining Process – What Is The Data Mining Process",
+        "desc": "Data Science Examples include: the early detection of disease in hospitals, Fraud transaction detection in banks, Movie recommendation systems on OTT platforms, and much more. READ here to explore Top Data Science Examples in detail",
+        "category": "Data Science",
+        "id": "1"
+      },
+      {
+        "thumb": "https://blog.pwskills.com/wp-content/uploads/2024/09/Advantages-of-a-B.Voc_.jpg",
+        "title": "B.Voc. in Operation Theater Technology Advantages & Career Scope",
+        "desc": "Data Science Examples include: the early detection of disease in hospitals, Fraud transaction detection in banks, Movie recommendation systems on OTT platforms, and much more. READ here to explore Top Data Science Examples in detail",
+        "category": "Data Science",
+        "id": "2"
+      },
+      {
+        "thumb": "https://blog.pwskills.com/wp-content/uploads/2024/09/Tally-Prime-Download.jpg",
+        "title": "Tally Prime Download: How To Download Tally Prime For Free?",
+        "desc": "Data Science Examples include: the early detection of disease in hospitals, Fraud transaction detection in banks, Movie recommendation systems on OTT platforms, and much more. READ here to explore Top Data Science Examples in detail",
+        "category": "Tally",
+        "id": "3"
+      },
+      {
+        "thumb": "https://blog.pwskills.com/wp-content/uploads/2024/09/Java-Scanner-Class-Definition-And-Examples.jpg",
+        "title": "Java Scanner Class – Definition And Example",
+        "desc": "Data Science Examples include: the early detection of disease in hospitals, Fraud transaction detection in banks, Movie recommendation systems on OTT platforms, and much more. READ here to explore Top Data Science Examples in detail",
+        "category": "Data Science",
+        "id": "4"
+      },
+      {
+        "thumb": "https://blog.pwskills.com/wp-content/uploads/2024/09/Data-Mining-Process-What-Is-The-Data-Mining-Process.jpg",
+        "title": "Data Mining Process – What Is The Data Mining Process",
+        "desc": "Data Science Examples include: the early detection of disease in hospitals, Fraud transaction detection in banks, Movie recommendation systems on OTT platforms, and much more. READ here to explore Top Data Science Examples in detail. Data Science Examples include: the early detection of disease in hospitals, Fraud transaction detection in banks, Movie recommendation systems on OTT platforms, and much more. READ here to explore Top Data Science Examples in detail",
+        "category": "Data Science",
+        "id": "5"
+      }
+    ]
+  }
+  
