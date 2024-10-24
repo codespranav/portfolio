@@ -3,11 +3,11 @@ import LoadingSpinner from '@/app/components/LoadingSpinner';
 import { PersonStanding, User } from 'lucide-react';
 import React from 'react'
 import useSWR from 'swr'
-import { useFetchBlog } from '../../../../fetchBlog';
+import { UseFetchBlog } from '../../../../BlogFetch';
 
 
 const page = ({params}) => {
-    const {data, error, isLoading} = useFetchBlog();
+    const {data, error, isLoading} = UseFetchBlog();
     
     if(error){
         return <h1>Something unexpected happened!</h1>

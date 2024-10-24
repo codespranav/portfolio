@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useEffect } from 'react'
 import useSWR from 'swr'
 import LoadingSpinner from '../components/LoadingSpinner'
-import { useFetchBlog } from '../../../fetchBlog'
+import { UseFetchBlog } from '../../../BlogFetch'
 
 
 const page = () => {
@@ -15,7 +15,7 @@ const page = () => {
 //         let res = await fetch("/api/")
 //     }, [])
 // const blogs: Array<""> = [];
-    const {data, error, isLoading} = useFetchBlog();
+    const {data, error, isLoading} = UseFetchBlog();
     
     if(error){
         return <h1>Something unexpected happened!</h1>
