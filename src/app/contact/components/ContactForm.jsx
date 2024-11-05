@@ -82,7 +82,7 @@ const ContactForm = () => {
             type="submit"
             className="bg-black text-white w-full py-2 px-6 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            Let's Talk!
+            Let&apos;s Talk!
           </button>
         </div>
       </form>
