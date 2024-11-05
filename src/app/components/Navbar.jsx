@@ -16,9 +16,9 @@ const Navbar = () => {
     </div> */}
         <nav className='flex justify-between items-center max-w-7xl m-auto relative'>
             <div className="logo font-[500] ml-12 cursor-pointer">
-                <span>PRANAV SINGH</span>
+                <Link href= "/">PRANAV SINGH</Link>
             </div>
-            <div className="circle w-10 h-10 text-xl cursor-pointer bg-secondary rounded-full absolute left-0 flex justify-center items-center text-secondary font-bold">Pr</div>
+            <div className="circle w-10 h-10 text-xl cursor-pointer bg-secondary rounded-full absolute left-0 flex justify-center items-center text-secondary font-bold"><Link href= "/">Pr</Link></div>
             <div className="navigation text-[15px] hidden md:block">
                 <ul className='flex space-x-6 items-center'>
                     {navigationLinks.map((items, index)=>(

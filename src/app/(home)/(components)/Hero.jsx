@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import myProfilePic from '../../assets/pranav_Dev.png'
 import Typewriter from 'typewriter-effect'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
           <h1 className='text-4xl leading-tight text-heading'>Hii! I&apos;m Pranav!</h1>
           <h1 className='text-4xl font-bold'> <Typewriter
                     options={{
-                        strings: ['Freealance Web Developer', 'Freealance App Developer'],
+                        strings: ['Freelance Web Developer', 'Freelance App Developer'],
                         autoStart: true,
                         loop: true,
                         delay: 40
@@ -25,7 +26,9 @@ const Hero = () => {
 
           <div className="ctaction mt-5">
             <button className='bg-secondary w-44 h-12 rounded-full text-secondary font-semibold  '>View My Portfolio</button>
-            <button className='bg-none border border-gray-100 w-44 h-12 rounded-full text-primary font-semibold ml-4 hover:bg-secondary hover:text-secondary transition-all'>Let&apos;s Talk</button>
+            <Link href = "/contact">
+              <button className='bg-none border border-gray-100 w-44 h-12 rounded-full text-primary font-semibold ml-4 hover:bg-secondary hover:text-secondary transition-all'>Let&apos;s Talk</button>
+            </Link>
           </div>
 
           {/* TODO re desogm this */}
