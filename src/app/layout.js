@@ -9,6 +9,8 @@ export const metadata = {
   title: "Web Developer in India  | Pranav Singh",
   description: "Pranav Singh is the website developer working as a freelance since 2018. According to google review He is the best Website Developer in India, Website Developer in Bihar",
 };
+
+<link rel="icon" href="/public/favicon.ico" sizes="any" />
 const poppins = Poppins({
   weight: ['400', "500", "600", "700", "900"],
   subsets: ['latin'],
