@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className="text-4xl leading-tight text-heading">
             Hii! I&apos;m Pranav!
           </h1>
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-4xl font-bold h-20 md:h-fit mt-3">
             {" "}
             <Typewriter
               options={{
@@ -39,7 +39,7 @@ const Hero = () => {
             solutions that drive engagement and lasting impact.
           </p>
 
-          <div className="ctaction mt-5 flex flex-row items-center gap-4 justify-between md:justify-normal">
+          <div className="ctaction mt-5 flex flex-row items-center gap-4 justify-between md:justify-normal w-full">
           <Link href="/contact">
             <button className="bg-secondary px-6 py-3 rounded-md text-white font-medium hover:bg-secondary-dark hover:text-white transition-all duration-200">
               Schedule Call

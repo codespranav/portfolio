@@ -1,10 +1,16 @@
 "use client"
 import { MenuIcon } from 'lucide-react';
 import Link from 'next/link';
-import React, { useState } from 'react';
-
+import React, { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation'; // Import usePathname hook
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const pathname = usePathname(); // Get the current pathname
+
+    // Effect to close the menu when pathname changes
+    useEffect(() => {
+      setIsMenuOpen(false); // Reset menu state on page change
+    }, [pathname]);
   const navigationLinks = [
     { name: 'Home', link: '/' },
     { name: 'About Me', link: '/' },
