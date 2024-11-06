@@ -13,11 +13,11 @@ module.exports = {
         primary: "#fff",
         secondary: "#0B1215",
         heading: "#FFAe42",
-        paraColour: "#B5b5b5"
+        paraColour: "#8f8f8f"
       },
       backgroundColor: {
         primary: "#0B1215",
-        secondary: "#F1C40F",
+        secondary: "#FF4F00",
       },
     },
   },

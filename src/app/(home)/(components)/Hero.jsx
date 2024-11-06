@@ -4,10 +4,13 @@ import React from 'react'
 import myProfilePic from '../../assets/pranav_Dev.png'
 import Typewriter from 'typewriter-effect'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Hero = () => {
   return (
-    <section className="px-4 md:px-0">
+    <>
+    
+    <section className="px-4 md:px-0 py-7">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 grid-cols-1 items-center justify-items-center gap-14 border-b border-neutral-800 pb-24">
         <div className="welcometext">
           <h1 className="text-4xl leading-tight text-heading">
@@ -37,14 +40,15 @@ const Hero = () => {
           </p>
 
           <div className="ctaction mt-5 flex flex-row items-center gap-4">
-            <button className="bg-secondary px-6 py-3 rounded-full text-secondary font-semibold hover:bg-secondary-dark hover:text-white transition-all duration-200">
-              View My Portfolio
+          <Link href="/contact">
+            <button className="bg-secondary px-6 py-3 rounded-md text-white font-medium hover:bg-secondary-dark hover:text-white transition-all duration-200">
+              Schedule Call
             </button>
-            <Link href="/contact">
-              <button className="border border-gray-300 px-6 py-3 rounded-full text-primary font-semibold hover:bg-secondary hover:text-white transition-all duration-200">
-                Let&apos;s Talk
-              </button>
             </Link>
+           
+            <button className="bg-primary hover:bg-white hover:text-black px-6 py-3 rounded-md text-white font-medium hover:bg-secondary-dark transition-all duration-200">
+              My Work&apos;s
+            </button>
           </div>
 
           {/* TODO re desogm this */}
@@ -70,6 +74,8 @@ const Hero = () => {
         </div>
       </div>
     </section>
+    </>
+
   );
 }
 

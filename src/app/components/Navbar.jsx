@@ -28,7 +28,7 @@ const Navbar = () => {
                     ))}
                 </ul>
             </div>
-                    <button className='bg-secondary w-28 h-10 rounded-3xl text-secondary '>Hire Me</button>
+                    <button className='bg-secondary px-6 py-2 rounded-3xl text-white '>Hire Me</button>
         </nav>
     </header>  
   )

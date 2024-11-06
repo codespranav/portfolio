@@ -15,7 +15,7 @@ const page = () => {
         <section className='px-4 md:px-0 cursor-default h-auto pt-24 flex justify-center items-center text-center '>
             <div className="content max-w-3xl mx-auto my-auto" >
               <h1 className='text-3xl font-bold'>Hi, I’m Pranav. Nice to see you here.</h1>
-              <p className='mt-4 text-md'>Since beginning my journey as a freelance web developer 4 years ago, I&apos;ve done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I&apos;m quietly confident, naturally curious, and perpetually working on improving my chops.</p>
+              <p className='mt-4 text-md text-paraColour'>Since beginning my journey as a freelance web developer 4 years ago, I&apos;ve done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I&apos;m quietly confident, naturally curious, and perpetually working on improving my chops.</p>
             </div>
         </section>
             </div>

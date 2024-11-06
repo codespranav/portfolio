@@ -21,7 +21,7 @@ const Newsletter = () => {
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-6 flex justify-center flex-col items-center">
                     <h3 className="text-2xl md:text-5xl font-bold text-center leading-tight drop-shadow-md">Elevate Your Business to New Heights!</h3>
                     <button 
-                        className='bg-blue-700 hover:bg-blue-800 transition duration-300 ease-in-out text-white px-6 py-3 rounded-full mt-7 shadow-lg transform hover:scale-105'
+                        className=' bg-secondary hover:bg-white hover:text-black transition duration-300 ease-in-out text-white px-6 py-3 rounded-full mt-7 shadow-lg transform hover:scale-105'
                     > 
                         Let’s Get Started
                     </button>
