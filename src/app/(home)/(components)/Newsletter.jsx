@@ -6,7 +6,7 @@ import newsletterimage from '../../assets/teamtransformed.jpeg';
 const Newsletter = () => {
     return (
         <section className='py-16 overflow-hidden'>
-            <div className="max-w-7xl mx-auto border-b border-neutral-800 pb-24 w-full h-[440px] md:h-[380px] relative">
+            <div className="md:max-w-7xl mx-auto border-b border-neutral-800 pb-24 w-full h-[440px] md:h-[380px] relative">
                 {/* Image with gradient overlay */}
                 <Image
                     src={newsletterimage}
@@ -18,10 +18,10 @@ const Newsletter = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60 rounded-lg"></div>
 
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-6 flex justify-center flex-col items-center">
+                <div className="absolute top-1/2 left-1/2 transform w-full -translate-x-1/2 -translate-y-1/2 text-white p-6 flex justify-center flex-col items-center">
                     <h3 className="text-2xl md:text-5xl font-bold text-center leading-tight drop-shadow-md">Elevate Your Business to New Heights!</h3>
                     <button 
-                        className=' bg-secondary hover:bg-white hover:text-black transition duration-300 ease-in-out text-white px-6 py-3 rounded-full mt-7 shadow-lg transform hover:scale-105'
+                        className=' bg-secondary hover:bg-white hover:text-black transition duration-300 ease-in-out text-white px-6 py-2 rounded-md mt-7 shadow-lg transform hover:scale-105'
                     > 
                         Let’s Get Started
                     </button>
