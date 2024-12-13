@@ -1,10 +1,11 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import useSWR from 'swr'
 import LoadingSpinner from '../components/LoadingSpinner'
 import { UseFetchBlog } from '../../../BlogFetch'
+import UnderConstructionPopup from '../components/PageUnderConstruction'
 
 
 const page = () => {
@@ -26,6 +27,8 @@ const page = () => {
 
   return (
     <section className='px-4 md:px-0 cursor-default'>
+          <UnderConstructionPopup />
+
         <div className='max-w-7xl mx-auto'>
             <div className="heading text-center">
                 <h2 className="text-4xl font-bold text-white">Coding Articles</h2>

@@ -11,9 +11,9 @@ const Footer = () => {
         </div>
         
         {/* Column 2 */}
-        <div>
+        <div className='text-center'>
           <p className="font-semibold text-paraColour mb-4 tracking-widest text-base">NEED SUPPORT?</p>
-          <p className="text-sm">business@pranavdev.in</p>
+          <p className="text-sm">websitebypranav@gmail.com</p>
         </div>
         {/* Column 3 */}
         <div>

@@ -1,9 +1,9 @@
 "use client"
-import LoadingSpinner from '@/app/components/LoadingSpinner';
 import { PersonStanding, User } from 'lucide-react';
 import React from 'react'
 import useSWR from 'swr'
 import { UseFetchBlog } from '../../../../BlogFetch';
+import LoadingSpinner from '../../components/LoadingSpinner';
 
 
 const page = ({params}) => {
