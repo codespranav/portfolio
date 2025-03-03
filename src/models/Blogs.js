@@ -1,23 +1,13 @@
 import mongoose from "mongoose";
 
-const blogmodel = mongoose.Schema({
-    title: {
-        type: String, 
-        required: true,
-    },
-    content: {
-        type: String, 
-        required: true
-    },
-    author: String,
-    fileName: {
-        type: String,
-        required: true
-    },
-    createdAt: {
-        type: Date,
-        default: new Date(),
-      },
-})
+const BlogSchema = new mongoose.Schema({
+    title: { type: String, required: true },
+    content: { type: String, required: true },
+    author: { type: String, required: true },
+    createdAt: { type: Date, default: Date.now },
+});
 
-export default mongoose.model('Blogs', blogmodel);
+// Prevent redefining the model
+const Blogs = mongoose.models.Blogs || mongoose.model("Blogs", BlogSchema);
+
+export default Blogs;
