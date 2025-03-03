@@ -17,6 +17,8 @@ const page = () => {
 //     }, [])
 // const blogs: Array<""> = [];
     const {data, error, isLoading} = UseFetchBlog();
+    console.log("req data is " + data);
+    
     
     if(error){
         return <h1>Something unexpected happened!</h1>

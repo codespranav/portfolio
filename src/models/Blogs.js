@@ -10,6 +10,10 @@ const blogmodel = mongoose.Schema({
         required: true
     },
     author: String,
+    fileName: {
+        type: String,
+        required: true
+    },
     createdAt: {
         type: Date,
         default: new Date(),
